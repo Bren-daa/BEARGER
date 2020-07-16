@@ -1,0 +1,244 @@
+﻿body {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0.5em solid maroon;
+    border-radius: 50px;
+    border-width: thick;
+    width: 500px;
+    height: 1050px;
+    border-color: saddlebrown;
+    border-top-color: grey;
+    border-bottom-color: grey;
+}
+
+h1 { /*concerne les titres h1 et h2*/
+    text-align: left;
+    font-weight: 900;
+    color: dimgrey;
+    margin-top: 100px;
+    margin-left:20px;
+    
+}
+
+img{
+    width:100px;
+    height:100px;
+    margin-left:30px;
+    margin-top:10px;
+    margin-bottom:2px;
+}
+div {
+    text-align: left;
+    color: saddlebrown;
+    font-size:xx-large;
+    font-family:'gill sans';
+    margin-left: 20px;
+}
+h1,div{
+    line-height:0.5em;
+}
+
+
+td img{
+    width: 40px;
+    height: 40px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 25px;
+    margin-left: 15px;
+    width:280px;
+    height:70px;
+}
+td{
+    border: solid white;
+    border-radius:30px;
+    background-color :ghostwhite;
+}
+p{
+    font-size:small;
+    text-align:center;
+}
+
+body aside {
+    text-align:center;
+    margin-top: -1020px;
+    margin-left: 300px;
+    width:180px;
+    height:990px;
+    background-color:ghostwhite;
+    border-radius:50px;
+    background-image:url(burger.jpg)
+    
+}
+aside h2 {
+    text-align: center;
+    margin-top:125px;
+    font-family: 'Gill Sans';
+    font-weight:700;
+    color:saddlebrown;
+    margin-left: 20px;
+ }
+
+aside table {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 150px;
+    height: 70px;
+    
+}
+aside table td {
+    background-color:ghostwhite;
+    border:none;
+    
+}
+aside table img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.child {
+    background-color:saddlebrown;
+    
+}
+
+input[type=submit]{
+    background-color:saddlebrown;
+    width:80px;
+    height:70px;
+    border-radius:25px;
+    border-color:saddlebrown;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.container{
+    width:20px;
+    height:20px;
+    justify-content:space-evenly;
+    align-items:center;
+    top:50%;
+    right:70%;
+    transform:translate(-50%,-70%);
+    display: flex;
+    margin-left:70px;
+    display:flex;
+    
+    
+}
+
+.add, .remove{
+    padding:1px 5px;
+    background-color:gold;
+    border-radius:30px;
+    font-size:10px;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    display:inline-block;
+    font-weight:bold;
+    box-shadow:0px 12px 30px 0px white;
+}
+
+.remove {
+    background-color: white;
+    box-shadow: 0px 12px 30px 0px white;
+}
+
+.result{
+    text-align:center;
+    font-weight:bold;
+    width:30px;  
+}
+
+.dollar{
+    margin-left:-45px;
+}
+
+.price1{
+    margin-top:-28px;
+    font-weight:bold;
+}
+.price2 {
+    margin-top: -28px;
+    font-weight: bold;
+}
+
+.price3 {
+    margin-top: -28px;
+    font-weight: bold;
+}
+
+.total {
+    margin-top: -28px;
+    font-weight: bold;
+}
+.add:active, .remove:active {
+    transform: translateY(5px);
+}
+
+
+.add1, .remove1 {
+    padding: 1px 5px;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0px 12px 30px 0px white;
+}
+
+.remove1 {
+    background-color: white;
+    box-shadow: 0px 12px 30px 0px white;
+}
+
+.result1 {
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+}
+
+.add1:active, .remove1:active {
+    transform: translateY(5px);
+}
+
+
+.add0, .remove0 {
+    padding: 1px 5px;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0px 12px 30px 0px white;
+}
+
+.remove0 {
+    background-color: white;
+    box-shadow: 0px 12px 30px 0px white;
+}
+
+.result0 {
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+}
+
+.add0:active, .remove0:active {
+    transform: translateY(5px);
+}
+
+
+
