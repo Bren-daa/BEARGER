@@ -1,19 +1,17 @@
-﻿body {
+﻿/*GENERAL*/
+body 
+{
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 0.5em solid maroon;
-    border-radius: 50px;
-    border-width: thick;
     width: 500px;
     height: 1050px;
-    border-color: saddlebrown;
-    border-top-color: grey;
-    border-bottom-color: grey;
+    float : left;
 }
 
-h1 { /*concerne les titres h1 et h2*/
+h1 
+{ /*concerne les titres h1 et h2*/
     text-align: left;
     font-weight: 900;
     color: dimgrey;
@@ -22,60 +20,73 @@ h1 { /*concerne les titres h1 et h2*/
     
 }
 
-img{
+img
+{
     width:100px;
     height:100px;
     margin-left:30px;
     margin-top:10px;
     margin-bottom:2px;
 }
-div {
+
+div 
+{
     text-align: left;
     color: saddlebrown;
     font-size:xx-large;
     font-family:'gill sans';
     margin-left: 20px;
 }
-h1,div{
+
+h1,div
+{
     line-height:0.5em;
 }
 
 
-td img{
+td img
+{
     width: 40px;
     height: 40px;
     margin-left: 45px;
     margin-top: 10px;
 }
 
-table {
+table 
+{
     margin-top: 25px;
     margin-left: 15px;
     width:280px;
     height:70px;
 }
-td{
+
+td
+{
     border: solid white;
     border-radius:30px;
     background-color :ghostwhite;
 }
-p{
+
+p
+{
     font-size:small;
     text-align:center;
 }
 
-body aside {
+/*COTE DROIT*/
+body aside 
+{
+    float:none;
     text-align:center;
-    margin-top: -1020px;
     margin-left: 300px;
     width:180px;
     height:990px;
     background-color:ghostwhite;
     border-radius:50px;
-    background-image:url(burger.jpg)
-    
+    margin-top:-60em;
 }
-aside h2 {
+aside h2 
+{
     text-align: center;
     margin-top:125px;
     font-family: 'Gill Sans';
@@ -84,30 +95,37 @@ aside h2 {
     margin-left: 20px;
  }
 
-aside table {
+aside table 
+{
     margin-top: 25px;
     margin-left: 15px;
     width: 150px;
     height: 70px;
     
 }
-aside table td {
+aside table td 
+{
     background-color:ghostwhite;
     border:none;
     
 }
-aside table img{
+
+aside table img
+{
     width: 40px;
     height: 40px;
     margin-left: 10px;
     margin-top: 10px;
 }
-.child {
+
+.child 
+{
     background-color:saddlebrown;
     
 }
 
-input[type=submit]{
+input[type=submit]
+{
     background-color:saddlebrown;
     width:80px;
     height:70px;
@@ -117,7 +135,9 @@ input[type=submit]{
     font-weight:bold;
 }
 
-.container{
+/*LIAISON JAVASCRIPT*/
+.container
+{
     width:20px;
     height:20px;
     justify-content:space-evenly;
@@ -132,7 +152,8 @@ input[type=submit]{
     
 }
 
-.add, .remove{
+.add, .remove
+{
     padding:1px 5px;
     background-color:gold;
     border-radius:30px;
@@ -145,45 +166,54 @@ input[type=submit]{
     box-shadow:0px 12px 30px 0px white;
 }
 
-.remove {
+.remove 
+{
     background-color: white;
     box-shadow: 0px 12px 30px 0px white;
 }
 
-.result{
+.result
+{
     text-align:center;
     font-weight:bold;
     width:30px;  
 }
 
-.dollar{
+.dollar
+{
     margin-left:-45px;
 }
 
-.price1{
+.price1
+{
     margin-top:-28px;
     font-weight:bold;
 }
-.price2 {
+.price2
+ {
     margin-top: -28px;
     font-weight: bold;
 }
 
-.price3 {
+.price3 
+{
     margin-top: -28px;
     font-weight: bold;
 }
 
-.total {
+.total 
+{
     margin-top: -28px;
     font-weight: bold;
 }
-.add:active, .remove:active {
+.add:active, .remove:active 
+{
     transform: translateY(5px);
 }
 
 
-.add1, .remove1 {
+.add1, .remove1 
+{
     padding: 1px 5px;
     background-color: gold;
     border-radius: 30px;
@@ -196,23 +226,27 @@ input[type=submit]{
     box-shadow: 0px 12px 30px 0px white;
 }
 
-.remove1 {
+.remove1 
+{
     background-color: white;
     box-shadow: 0px 12px 30px 0px white;
 }
 
-.result1 {
+.result1 
+{
     text-align: center;
     font-weight: bold;
     width: 30px;
 }
 
-.add1:active, .remove1:active {
+.add1:active, .remove1:active 
+{
     transform: translateY(5px);
 }
 
 
-.add0, .remove0 {
+.add0, .remove0 
+{
     padding: 1px 5px;
     background-color: gold;
     border-radius: 30px;
@@ -225,18 +259,21 @@ input[type=submit]{
     box-shadow: 0px 12px 30px 0px white;
 }
 
-.remove0 {
+.remove0 
+{
     background-color: white;
     box-shadow: 0px 12px 30px 0px white;
 }
 
-.result0 {
+.result0 
+{
     text-align: center;
     font-weight: bold;
     width: 30px;
 }
 
-.add0:active, .remove0:active {
+.add0:active, .remove0:active 
+{
     transform: translateY(5px);
 }
 
